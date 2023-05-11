@@ -261,9 +261,86 @@
             <hr class="uk-margin-large">
 
             <div class="uk-grid-divider" uk-grid>
-                <div class="uk-width-3-5@m">
+                <div class="uk-width-3-4@m">
 
-                    <div class="uk-child-width-expand@s" uk-grid>
+                    <h1 class="uk-heading-2xlarge uk-margin-small">2XL</h1>
+                    <h1 class="uk-heading-xlarge uk-margin-small">X-Large</h1>
+                    <h1 class="uk-heading-large uk-margin-small">Heading L</h1>
+                    <h1 class="uk-heading-medium uk-margin-small">Heading M</h1>
+                    <h1 class="uk-heading-small uk-margin-small">Heading S</h1>
+
+                    <h1 class="uk-margin-small">Heading H1</h1>
+                    <h2 class="uk-margin-small">Heading H2</h2>
+                    <h3 class="uk-margin-small">Heading H3</h3>
+                    <h4 class="uk-margin-small">Heading H4</h4>
+                    <h5 class="uk-margin-small">Heading H5</h5>
+                    <h6 class="uk-margin-small">Heading H6</h6>
+
+                    <h3 class="uk-heading-divider">Heading Divider</h3>
+                    <h3 class="uk-heading-bullet">Heading Bullet</h3>
+                    <h3 class="uk-heading-line"><span>Heading Line</span></h3>
+
+                    <div class="uk-overflow-auto uk-margin-medium-top">
+                        <table class="uk-table uk-table-divider uk-table-hover uk-table-small">
+                            <thead>
+                            <tr>
+                                <th>Table Heading</th>
+                                <th>Table Heading</th>
+                                <th>Table Heading</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Table Data</td>
+                                <td>Table Data</td>
+                                <td>Table Data</td>
+                            </tr>
+                            <tr>
+                                <td>Table Data</td>
+                                <td>Table Data</td>
+                                <td>Table Data</td>
+                            </tr>
+                            <tr>
+                                <td>Table Data</td>
+                                <td>Table Data</td>
+                                <td>Table Data</td>
+                            </tr>
+                            <tr>
+                                <td>Table Data</td>
+                                <td>Table Data</td>
+                                <td>Table Data</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: {{ date('Y-m-d H:i:s', strtotime('+7 days'));}}">
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-days"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-hours"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-minutes"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+                        </div>
+                        <div class="uk-countdown-separator">:</div>
+                        <div>
+                            <div class="uk-countdown-number uk-countdown-seconds"></div>
+                            <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="uk-width-1-4@m">
+
+                    <div class="uk-child-width-1-1@s" uk-grid>
                         <div>
 
                             <form class="uk-form-stacked">
@@ -326,39 +403,7 @@
                         </div>
                     </div>
 
-                    <div class="uk-overflow-auto uk-margin-medium-top">
-                        <table class="uk-table uk-table-divider uk-table-hover uk-table-small">
-                            <thead>
-                            <tr>
-                                <th>Table Heading</th>
-                                <th>Table Heading</th>
-                                <th>Table Heading</th>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                            </tr>
-                            <tr>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                            </tr>
-                            <tr>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                            </tr>
-                            <tr>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                    
 
                     <div class="uk-margin-medium-top" uk-alert>
                         <a href="#" class="uk-alert-close" uk-close></a>
@@ -384,26 +429,20 @@
                         <a href="#" class="uk-alert-close" uk-close></a>
                         <p>Danger</p>
                     </div>
-                </div>
-                <div class="uk-width-2-5@m">
 
-                    <h1 class="uk-heading-2xlarge uk-margin-small">2XL</h1>
-                    <h1 class="uk-heading-xlarge uk-margin-small">X-Large</h1>
-                    <h1 class="uk-heading-large uk-margin-small">Heading L</h1>
-                    <h1 class="uk-heading-medium uk-margin-small">Heading M</h1>
-                    <h1 class="uk-heading-small uk-margin-small">Heading S</h1>
+                    <ul class="uk-nav uk-nav-primary uk-margin-medium">
+                        <li class="uk-active"><a href="#">Active</a></li>
+                        <li><a href="#">Item</a></li>
+                        <li><a href="#">Item</a></li>
+                        <li><a href="#">Item</a></li>
+                    </ul>
 
-                    <h1 class="uk-margin-small">Heading H1</h1>
-                    <h2 class="uk-margin-small">Heading H2</h2>
-                    <h3 class="uk-margin-small">Heading H3</h3>
-                    <h4 class="uk-margin-small">Heading H4</h4>
-                    <h5 class="uk-margin-small">Heading H5</h5>
-                    <h6 class="uk-margin-small">Heading H6</h6>
-
-                    <h3 class="uk-heading-divider">Heading Divider</h3>
-                    <h3 class="uk-heading-bullet">Heading Bullet</h3>
-                    <h3 class="uk-heading-line"><span>Heading Line</span></h3>
-
+                    <ul class="uk-nav uk-nav-secondary uk-margin-medium">
+                        <li class="uk-active"><a href="#"><div>Active<div class="uk-nav-subtitle">Subtitle lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div></div></a></li>
+                        <li><a href="#"><div>Item<div class="uk-nav-subtitle">Subtitle lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div></div></a></li>
+                        <li><a href="#"><div>Item<div class="uk-nav-subtitle">Subtitle lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div></div></a></li>
+                        <li><a href="#"><div>Item<div class="uk-nav-subtitle">Subtitle lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div></div></a></li>
+                    </ul>
                 </div>
             </div>
 
