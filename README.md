@@ -58,13 +58,15 @@ The delete files are files that we don't need, ex: tailwind because we use UiKit
 * resources/views/layouts/app.blade.php
 * resources/views/welcome.blade.php
 * resources/js/app.js
-* resources/views/welcome.blade.php
+* resources/views/auth/
 * package.json (Add packages and remove extra ones.)
 * vite.config.js
 
 
 ## Next Steps
 * Profile
+
+This project was made to accommodate our laravel Setup, yours might not be the same.
 
 ## License
 
