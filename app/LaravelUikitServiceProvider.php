@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Facades\Schema;
 
-class LaravelUikitServiceProvider extends ServiceProvider implements DeferrableProvider
+class LaravelUikitServiceProvider extends ServiceProvider
 {
     /**
      * Register any application services.
@@ -42,15 +42,5 @@ class LaravelUikitServiceProvider extends ServiceProvider implements DeferrableP
         $this->commands([
             Console\InstallCommand::class,
         ]);
-    }
-
-    /**
-     * Get the services provided by the provider.
-     *
-     * @return array
-     */
-    public function provides()
-    {
-        return [Console\InstallCommand::class];
     }
 }
