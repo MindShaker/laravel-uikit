@@ -20,7 +20,8 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'uikit:install {--composer=global : Absolute path to the Composer binary which should be used to install packages}';
+    protected $signature = 'uikit:install {debugbar : If you want to install Debugbar}
+        {--composer=global : Absolute path to the Composer binary which should be used to install packages}';
 
     /**
      * The console command description.
@@ -50,7 +51,6 @@ class InstallCommand extends Command
      */
     protected function interact(InputInterface $input, OutputInterface $output)
     {
-
         $input->setOption('debugbar', $this->components->confirm('Would you like to install Debugbar (Recommended for database heavy projects)?'));
     }
 
