@@ -20,9 +20,15 @@ trait InstallUiKit
             return 1;
         }
 
-        $this->components->info('Install Breeze...');
+        $this->components->info('Installing Breeze...');
         $this->runCommands(['php artisan breeze:install']);
 
+        if ($this->option('debugbar')) {
+            $this->components->info('Installing Debugbar...');
+            if (!$this->requireComposerPackages(['barryvdh/laravel-debugbar'], true)) {
+                return 1;
+            }
+        }
 
         // Layouts...
         (new Filesystem)->ensureDirectoryExists(app_path('View/Components'));

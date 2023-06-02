@@ -8,6 +8,8 @@ use Illuminate\Support\Str;
 use RuntimeException;
 use Symfony\Component\Process\PhpExecutableFinder;
 use Symfony\Component\Process\Process;
+use Symfony\Component\Console\Input\InputInterface;
+use Symfony\Component\Console\Output\OutputInterface;
 
 class InstallCommand extends Command
 {
@@ -38,6 +40,20 @@ class InstallCommand extends Command
         $this->components->info('Start installing UiKit scaffolding...');
         return $this->installUikit();
     }
+
+    /**
+     * Interact with the user to prompt them when the stack argument is missing.
+     *
+     * @param  \Symfony\Component\Console\Input\InputInterface  $input
+     * @param  \Symfony\Component\Console\Output\OutputInterface  $output
+     * @return void
+     */
+    protected function interact(InputInterface $input, OutputInterface $output)
+    {
+
+        $input->setOption('debugbar', $this->components->confirm('Would you like to install Debugbar (Recommended for database heavy projects)?'));
+    }
+
 
     /**
      * Installs the given Composer Packages into the application.
