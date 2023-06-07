@@ -59,7 +59,7 @@ trait InstallUiKit
         //Copy files
         copy(__DIR__ . '/../../vite.config.js', base_path('vite.config.js'));
         if ($this->option('robots')) {
-            copy(__DIR__ . '/../../robots.txt', base_path('robots.txt'));
+            copy(__DIR__ . '/../../robots.txt', base_path('public/robots.txt'));
         }
         copy(__DIR__ . '/../../resources/js/app.js', resource_path('js/app.js'));
         copy(__DIR__ . '/../../resources/sass/app.scss', resource_path('sass/app.scss'));
