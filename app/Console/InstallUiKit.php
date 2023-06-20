@@ -16,12 +16,12 @@ trait InstallUiKit
 
         $this->line('');
         $this->components->info('Require Breeze scaffolding...');
-        if (!$this->requireComposerPackages(['laravel/breeze'])) {
+        if (!$this->requireComposerPackages(['laravel/breeze'], true)) {
             return 1;
         }
 
         $this->components->info('Installing Breeze...');
-        $this->runCommands(['php artisan breeze:install']);
+        $this->runCommands(['php artisan breeze:install blade']);
 
         if ($this->option('debugbar')) {
             $this->components->info('Installing Debugbar...');
