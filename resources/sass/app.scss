@@ -1,10 +1,16 @@
 // 1. Your custom variables and variable overwrites.
 $notification-message-background: #fff;
+$navbar-nav-item-text-transform: none;
+$table-striped-row-background: #fff;
+$table-header-cell-font-weight: bold;
 
 // 2. Import default variables and available mixins.
 @import "uikit/src/scss/variables-theme.scss";
 @import "uikit/src/scss/mixins-theme.scss";
 
+@mixin hook-table-header-cell() {
+    text-transform: none;
+}
 
 // 4. Import UIkit.
 @import "uikit/src/scss/uikit-theme.scss";

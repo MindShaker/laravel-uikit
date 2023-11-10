@@ -28,7 +28,7 @@
             <div class="uk-margin">
                 <div class="uk-inline uk-width-1-1">
                     <span class="uk-form-icon" uk-icon="icon: mail"></span>
-                    <input class="uk-input" id="name" name="email" type="email" placeholder="Email" required="required" :value="old('email', $request->email)">
+                    <input class="uk-input" id="email" name="email" type="email" placeholder="Email" required="required" :value="old('email', $request->email)">
                 </div>
             </div>
 

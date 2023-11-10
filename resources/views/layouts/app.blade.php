@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,17 +13,18 @@
     <!-- Styles -->
     @vite(['resources/sass/app.scss'])
 </head>
+
 <body>
-    <div id="app">
-        <div class="uk-background-primary uk-light">
-            <nav class="uk-navbar-container uk-navbar-transparent">
-                <div class="uk-container">
+    <div id="app" class="uk-section-muted">
+        <div class="uk-dark uk-box-shadow-medium uk-section-default">
+            <nav class="uk-navbar-container uk-navbar-transparent ">
+                <div class="uk-container uk-container-large">
                     <div class="uk-navbar" data-uk-navbar>
                         <div class="uk-navbar-left">
                             <a class="uk-navbar-item uk-logo" href="/">{{ config('app.name', 'Laravel') }}</a>
 
-                            <ul class="uk-navbar-nav">
-                                <li>
+                            <ul class="uk-navbar-nav uk-tab">
+                                <li @class(['uk-active' => Request::routeIs('welcome')])>
                                     <a href="/">Home</a>
                                 </li>
                             </ul>
@@ -46,11 +48,12 @@
                                         <a href="#">
                                             {{ Auth::user()->name }}
                                         </a>
-                                        <div class="uk-navbar-dropdown">
+                                        <div class="uk-padding-small uk-border-rounded"
+                                            uk-dropdown="offset: -20; pos: bottom-right; animation: slide-top; animate-out:true">
                                             <ul class="uk-nav uk-navbar-dropdown-nav">
                                                 <li>
                                                     <a href="{{ route('logout') }}"
-                                                    onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                                         {{ __('Log Out') }}
                                                     </a>
 
@@ -75,9 +78,12 @@
         </main>
 
         <footer class="uk-section uk-section-xsmall uk-section-secondary">
-            
+            <div class="uk-container uk-container-large">
+                <span class="uk-h1">FOOTER</span>
+            </div>
         </footer>
     </div>
     @vite(['resources/js/app.js'])
 </body>
+
 </html>

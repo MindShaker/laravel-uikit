@@ -1,6 +1,6 @@
 <x-app-layout>
-    <div class="uk-section uk-section-default">
-        <div class="uk-container">
+    <div class="uk-section">
+        <div class="uk-container uk-container-large">
 
             <div uk-grid>
                 <div class="uk-width-2-3@m">
@@ -28,8 +28,8 @@
                             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
                             anim id est laborum.</p>
 
-                        <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted in <a
-                                href="#">Blog</a></p>
+                        <p class="uk-article-meta">Written by <a href="#">Super User</a> on 12 April 2012. Posted
+                            in <a href="#">Blog</a></p>
 
                         <hr class="uk-divider-icon uk-margin-medium">
 
@@ -48,12 +48,12 @@
                                         </li>
                                         <li class="uk-nav-header">Header</li>
                                         <li><a href="#"><span class="uk-margin-small-right"
-                                                              uk-icon="icon: table"></span> Item</a></li>
+                                                    uk-icon="icon: table"></span> Item</a></li>
                                         <li><a href="#"><span class="uk-margin-small-right"
-                                                              uk-icon="icon: thumbnails"></span> Item</a></li>
+                                                    uk-icon="icon: thumbnails"></span> Item</a></li>
                                         <li class="uk-nav-divider"></li>
                                         <li><a href="#"><span class="uk-margin-small-right"
-                                                              uk-icon="icon: trash"></span> Item</a></li>
+                                                    uk-icon="icon: trash"></span> Item</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -155,13 +155,14 @@
                                 <header class="uk-comment-header uk-position-relative">
                                     <div class="uk-grid-medium uk-flex-middle" uk-grid>
                                         <div class="uk-width-auto">
-                                            <img class="uk-comment-avatar" src="https://placekitten.com/300/300" width="50" alt="">
+                                            <img class="uk-comment-avatar" src="https://placekitten.com/300/300"
+                                                width="50" alt="">
                                         </div>
                                         <div class="uk-width-expand">
                                             <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset"
-                                                                                             href="#">Author</a></h4>
+                                                    href="#">Author</a></h4>
                                             <p class="uk-comment-meta uk-margin-remove-top"><a class="uk-link-reset"
-                                                                                               href="#">12 days ago</a>
+                                                    href="#">12 days ago</a>
                                             </p>
                                         </div>
                                     </div>
@@ -224,34 +225,41 @@
                             </ul>
                         </li>
                         <li class="uk-nav-header">Header</li>
-                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
-                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a>
+                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span>
+                                Item</a></li>
+                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span>
+                                Item</a>
                         </li>
                         <li class="uk-nav-divider"></li>
-                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
+                        <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span>
+                                Item</a></li>
                     </ul>
 
                     <div class="uk-card uk-card-body uk-card-default uk-card-hover">
                         <h3 class="uk-card-title">Default</h3>
-                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod
+                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
                             tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
 
                     <div class="uk-margin uk-card uk-card-body uk-card-primary uk-card-hover">
                         <h3 class="uk-card-title">Primary</h3>
-                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod
+                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
                             tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
 
                     <div class="uk-margin uk-card uk-card-body uk-card-secondary uk-card-hover">
                         <h3 class="uk-card-title">Secondary</h3>
-                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod
+                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
                             tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
 
                     <div class="uk-margin uk-card uk-card-body uk-card-hover">
                         <h3 class="uk-card-title">Hover</h3>
-                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do eiusmod
+                        <p>Lorem ipsum <a href="#">dolor</a> sit amet, consectetur adipiscing elit, sed do
+                            eiusmod
                             tempor incididunt ut labore et dolore magna aliqua.</p>
                     </div>
 
@@ -283,38 +291,39 @@
                     <div class="uk-overflow-auto uk-margin-medium-top">
                         <table class="uk-table uk-table-divider uk-table-hover uk-table-small">
                             <thead>
-                            <tr>
-                                <th>Table Heading</th>
-                                <th>Table Heading</th>
-                                <th>Table Heading</th>
-                            </tr>
+                                <tr>
+                                    <th>Table Heading</th>
+                                    <th>Table Heading</th>
+                                    <th>Table Heading</th>
+                                </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                            </tr>
-                            <tr>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                            </tr>
-                            <tr>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                            </tr>
-                            <tr>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                                <td>Table Data</td>
-                            </tr>
+                                <tr>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                </tr>
+                                <tr>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                </tr>
+                                <tr>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                </tr>
+                                <tr>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                    <td>Table Data</td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
 
-                    <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: {{ date('Y-m-d H:i:s', strtotime('+7 days'));}}">
+                    <div class="uk-grid-small uk-child-width-auto" uk-grid
+                        uk-countdown="date: {{ date('Y-m-d H:i:s', strtotime('+7 days')) }}">
                         <div>
                             <div class="uk-countdown-number uk-countdown-days"></div>
                             <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
@@ -371,7 +380,8 @@
                                 </div>
 
                                 <div class="uk-margin-small">
-                                    <input class="uk-range" type="range" value="2" min="0" max="10" step="0.1">
+                                    <input class="uk-range" type="range" value="2" min="0"
+                                        max="10" step="0.1">
                                 </div>
 
                             </form>
@@ -388,11 +398,11 @@
 
                                 <div class="uk-margin-small">
                                     <input class="uk-input uk-form-danger" type="text" placeholder="form-danger"
-                                           value="form-danger">
+                                        value="form-danger">
                                 </div>
                                 <div class="uk-margin-small">
                                     <input class="uk-input uk-form-success" type="text" placeholder="form-success"
-                                           value="form-success">
+                                        value="form-success">
                                 </div>
                                 <div class="uk-margin-small">
                                     <input class="uk-input uk-form-blank" type="text" placeholder="form-blank">
@@ -403,7 +413,7 @@
                         </div>
                     </div>
 
-                    
+
 
                     <div class="uk-margin-medium-top" uk-alert>
                         <a href="#" class="uk-alert-close" uk-close></a>
@@ -438,10 +448,26 @@
                     </ul>
 
                     <ul class="uk-nav uk-nav-secondary uk-margin-medium">
-                        <li class="uk-active"><a href="#"><div>Active<div class="uk-nav-subtitle">Subtitle lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div></div></a></li>
-                        <li><a href="#"><div>Item<div class="uk-nav-subtitle">Subtitle lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div></div></a></li>
-                        <li><a href="#"><div>Item<div class="uk-nav-subtitle">Subtitle lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div></div></a></li>
-                        <li><a href="#"><div>Item<div class="uk-nav-subtitle">Subtitle lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</div></div></a></li>
+                        <li class="uk-active"><a href="#">
+                                <div>Active<div class="uk-nav-subtitle">Subtitle lorem ipsum dolor sit amet,
+                                        consectetur adipiscing elit, sed do.</div>
+                                </div>
+                            </a></li>
+                        <li><a href="#">
+                                <div>Item<div class="uk-nav-subtitle">Subtitle lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do.</div>
+                                </div>
+                            </a></li>
+                        <li><a href="#">
+                                <div>Item<div class="uk-nav-subtitle">Subtitle lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do.</div>
+                                </div>
+                            </a></li>
+                        <li><a href="#">
+                                <div>Item<div class="uk-nav-subtitle">Subtitle lorem ipsum dolor sit amet, consectetur
+                                        adipiscing elit, sed do.</div>
+                                </div>
+                            </a></li>
                     </ul>
                 </div>
             </div>
@@ -453,12 +479,12 @@
 
                     <div class="uk-inline">
                         <img src="https://placekitten.com/300/300" alt="">
-                        <a class="uk-position-absolute uk-transform-center" style="left: 20%; top: 30%" href="#"
-                           uk-marker></a>
-                        <a class="uk-position-absolute uk-transform-center" style="left: 60%; top: 40%" href="#"
-                           uk-marker></a>
-                        <a class="uk-position-absolute uk-transform-center" style="left: 80%; top: 70%" href="#"
-                           uk-marker></a>
+                        <a class="uk-position-absolute uk-transform-center" style="left: 20%; top: 30%"
+                            href="#" uk-marker></a>
+                        <a class="uk-position-absolute uk-transform-center" style="left: 60%; top: 40%"
+                            href="#" uk-marker></a>
+                        <a class="uk-position-absolute uk-transform-center" style="left: 80%; top: 70%"
+                            href="#" uk-marker></a>
                     </div>
 
                 </div>
@@ -518,9 +544,12 @@
                 <div>
 
                     <ul class="uk-thumbnav">
-                        <li class="uk-active"><a href="#"><img src="https://placekitten.com/300/300" width="60" alt=""></a></li>
-                        <li><a href="#"><img src="https://placekitten.com/300/300" width="60" alt=""></a></li>
-                        <li><a href="#"><img src="https://placekitten.com/300/300" width="60" alt=""></a></li>
+                        <li class="uk-active"><a href="#"><img src="https://placekitten.com/300/300"
+                                    width="60" alt=""></a></li>
+                        <li><a href="#"><img src="https://placekitten.com/300/300" width="60"
+                                    alt=""></a></li>
+                        <li><a href="#"><img src="https://placekitten.com/300/300" width="60"
+                                    alt=""></a></li>
                     </ul>
 
                 </div>
@@ -806,7 +835,8 @@
                 </li>
                 <li class="uk-nav-header">Header</li>
                 <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: table"></span> Item</a></li>
-                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a></li>
+                <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: thumbnails"></span> Item</a>
+                </li>
                 <li class="uk-nav-divider"></li>
                 <li><a href="#"><span class="uk-margin-small-right" uk-icon="icon: trash"></span> Item</a></li>
             </ul>
