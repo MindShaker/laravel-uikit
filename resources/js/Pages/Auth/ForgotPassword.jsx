@@ -40,7 +40,7 @@ export default function ForgotPassword({ status }) {
                 <InputError message={errors.email} className="" />
 
                 <div className="uk-margin uk-flex uk-flex-center">
-                    <button className="uk-button uk-button-primary" disabled={processing}>
+                    <button className="uk-button uk-button-secondary uk-border-rounded" disabled={processing}>
                         Email Password Reset Link
                     </button>
                 </div>

@@ -85,7 +85,7 @@ export default function ResetPassword({ token, email }) {
                 </div>
 
                 <div className="uk-flex uk-flex-center uk-margin">
-                    <button className="uk-button uk-button-primary" disabled={processing}>
+                    <button className="uk-button uk-button-secondary uk-border-rounded" disabled={processing}>
                         Reset Password
                     </button>
                 </div>

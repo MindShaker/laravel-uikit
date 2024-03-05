@@ -50,7 +50,7 @@ export default function ConfirmPassword() {
                 </div>
 
                 <div className="uk-margin uk-flex uk-flex-center">
-                    <button className="uk-button uk-button-primary" disabled={processing}>
+                    <button className="uk-button uk-button-secondary uk-border-rounded" disabled={processing}>
                         Confirm
                     </button>
                 </div>

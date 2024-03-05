@@ -115,7 +115,7 @@ export default function Register() {
                     </div>
 
                     <div class="uk-width-auto">
-                        <button className="uk-button uk-button-primary" disabled={processing}>
+                        <button className="uk-button uk-button-secondary uk-border-rounded" disabled={processing}>
                             Register
                         </button>
                     </div>

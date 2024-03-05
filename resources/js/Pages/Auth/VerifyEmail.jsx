@@ -27,7 +27,7 @@ export default function VerifyEmail({ status }) {
 
             <form onSubmit={submit}>
                 <div className="uk-flex uk-margin uk-flex-center">
-                    <button className="uk-button uk-button-primary" disabled={processing}>Resend Verification Email</button>
+                    <button className="uk-button uk-button-secondary uk-border-rounded" disabled={processing}>Resend Verification Email</button>
 
                     <Link
                         href={route('logout')}

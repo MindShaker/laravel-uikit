@@ -94,7 +94,7 @@ export default function Login({ status, canResetPassword }) {
                     </div>
 
                     <div class="uk-width-auto">
-                        <button className="uk-button uk-button-primary" disabled={processing}>
+                        <button className="uk-button uk-button-secondary uk-border-rounded" disabled={processing}>
                             Log in
                         </button>
                     </div>
