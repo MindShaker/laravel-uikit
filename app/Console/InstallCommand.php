@@ -20,7 +20,8 @@ class InstallCommand extends Command
      *
      * @var string
      */
-    protected $signature = 'uikit:install 
+    protected $signature = 'uikit:install
+        {--inertia : If you want to install Breeze with Inertia.js (React) or Blade (default)}
         {--debugbar : If you want to install Debugbar}
         {--robots : If you want to install Robots.txt}
         {--composer=global : Absolute path to the Composer binary which should be used to install packages}';
@@ -53,6 +54,8 @@ class InstallCommand extends Command
      */
     protected function interact(InputInterface $input, OutputInterface $output)
     {
+        $input->setOption('inertia', $this->components->confirm('Would you like to install Inertia.js (React)?'));
+
         $input->setOption('debugbar', $this->components->confirm('Would you like to install Debugbar (Recommended for database heavy projects)?'));
 
         $input->setOption('robots', $this->components->confirm('Would you like to install robots.txt (It will disallow google to crawl your site )?'));
