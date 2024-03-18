@@ -16,11 +16,11 @@
     ],
     "require": {
         "php": "^8.1.0",
-        "illuminate/console": "^10.0",
-        "illuminate/pagination": "^10.0",
-        "illuminate/filesystem": "^10.0",
-        "illuminate/support": "^10.0",
-        "illuminate/validation": "^10.0"
+        "illuminate/console": "^10.0|^11",
+        "illuminate/pagination": "^10.0|^11",
+        "illuminate/filesystem": "^10.0|^11",
+        "illuminate/support": "^10.0|^11",
+        "illuminate/validation": "^10.0|^11"
     },
     "extra": {
         "laravel": {
