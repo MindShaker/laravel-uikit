@@ -1,6 +1,6 @@
-# UIkit / Breeze starter template for Laravel 10
+# UIkit / Breeze starter template for Laravel 11
 
-This package installs the starter kit "[Laravel Breeze](https://laravel.com/docs/10.x/starter-kits#laravel-breeze-installation)" and styles it with [UiKit](https://getuikit.com/) and it removes unnecessary files from Breeze and tailwind (See the full list of deleted / changed files below).
+This package installs the starter kit "[Laravel Breeze](https://laravel.com/docs/11.x/starter-kits#laravel-breeze-installation)" and styles it with [UiKit](https://getuikit.com/) and it removes unnecessary files from Breeze and tailwind (See the full list of deleted / changed files below).
 
 Laravel Breeze is a minimal, simple implementation of all of Laravel's authentication features, including login, registration, password reset, email verification, and password confirmation. 
 
@@ -11,7 +11,7 @@ Laravel Breeze is a minimal, simple implementation of all of Laravel's authentic
 To begin, you'll need a **fresh** install of Laravel. **Adding this to an 
 existing project is not recommended and may cause issues**. For full 
 instructions on installing Laravel, refer to the 
-[Laravel installation docs](https://laravel.com/docs/10.x/installation), but 
+[Laravel installation docs](https://laravel.com/docs/11.x/installation), but 
 something like the following will get you up and running:
 
 ```
