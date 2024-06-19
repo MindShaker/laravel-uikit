@@ -10,6 +10,10 @@
     "license": "MIT",
     "authors": [
         {
+            "name": "Matt Fletcher",
+            "email": "matt@torrix.uk"
+        },
+        {
             "name": "Miguel Neves",
             "email": "miguel.neves@mind-shaker.com"
         }
