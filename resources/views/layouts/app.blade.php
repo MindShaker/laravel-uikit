@@ -79,7 +79,7 @@
 
         <footer class="uk-section uk-section-xsmall uk-section-secondary">
             <div class="uk-container uk-container-large">
-                <div class="uk-flex uk-flex-center">
+                <div class="uk-text-center">
                     <span>{{ env('APP_NAME') }} | Powered by <a class="" href="http://mindshaker.com" target="_blank">Mindshaker</a>. © 2024 All rights reserved.</span>
                 </div>
             </div>
