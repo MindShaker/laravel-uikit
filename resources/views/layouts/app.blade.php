@@ -48,17 +48,14 @@
                                         <a href="#">
                                             {{ Auth::user()->name }}
                                         </a>
-                                        <div class="uk-padding-small uk-border-rounded"
-                                            uk-dropdown="offset: -20; pos: bottom-right; animation: slide-top; animate-out:true">
+                                        <div class="uk-padding-small uk-border-rounded" uk-dropdown="offset: -20; pos: bottom-right; animation: slide-top; animate-out:true">
                                             <ul class="uk-nav uk-navbar-dropdown-nav">
                                                 <li>
-                                                    <a href="{{ route('logout') }}"
-                                                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                                    <a href="{{ route('logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                                                         {{ __('Log Out') }}
                                                     </a>
 
-                                                    <form id="logout-form" action="{{ route('logout') }}" method="POST"
-                                                        style="display: none;">
+                                                    <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                                         @csrf
                                                     </form>
                                                 </li>
@@ -80,7 +77,7 @@
         <footer class="uk-section uk-section-xsmall uk-section-secondary">
             <div class="uk-container uk-container-large">
                 <div class="uk-text-center">
-                    <span>{{ env('APP_NAME') }} | Powered by <a class="" href="http://mindshaker.com" target="_blank">Mindshaker</a>. © 2024 All rights reserved.</span>
+                    <span>{{ env('APP_NAME') }} | Powered by <a class="" href="http://mindshaker.com" target="_blank">Mindshaker</a>. © {{ date('Y') }} All rights reserved.</span>
                 </div>
             </div>
         </footer>
