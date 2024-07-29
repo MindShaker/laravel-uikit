@@ -56,7 +56,7 @@ class InstallCommand extends Command
     {
         $input->setOption('inertia', $this->components->confirm('Would you like to install Inertia.js (React)?'));
 
-        $input->setOption('debugbar', $this->components->confirm('Would you like to install Debugbar (Recommended for database heavy projects)?'));
+        $input->setOption('debugbar', $this->components->confirm('Would you like to install Debugbar and IDE Helper (Recommended for database heavy projects)?'));
 
         $input->setOption('robots', $this->components->confirm('Would you like to install robots.txt (It will disallow google to crawl your site )?'));
     }

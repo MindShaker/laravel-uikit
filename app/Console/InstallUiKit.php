@@ -32,6 +32,12 @@ trait InstallUiKit
             if (!$this->requireComposerPackages(['barryvdh/laravel-debugbar'], true)) {
                 return 1;
             }
+
+            if (!$this->requireComposerPackages(['barryvdh/laravel-ide-helper'], true)) {
+                return 1;
+            }
+
+            $this->runCommands(['php artisan ide-helper:generate']);
         }
 
         // NPM Packages...
