@@ -29,7 +29,7 @@ trait InstallUiKit
 
         if ($this->option('debugbar')) {
             $this->components->info('Installing Debugbar...');
-            if (!$this->requireComposerPackages(['barryvdh/laravel-debugbar'], true)) {
+            if (!$this->requireComposerPackages(['barryvdh/laravel-debugbar', 'barryvdh/laravel-ide-helper'], true)) {
                 return 1;
             }
 
